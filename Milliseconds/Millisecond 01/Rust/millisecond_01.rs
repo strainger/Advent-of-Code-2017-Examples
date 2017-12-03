@@ -1,5 +1,6 @@
 use std::fs::File;
 use std::io::prelude::*;
+// Created by strainger
 fn main() {
     let mut file = File::open("list.txt").expect("File Not Found");
     let mut contents = String::new();
